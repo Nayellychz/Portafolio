@@ -162,19 +162,25 @@
   .imagen-logo-u{
     display: block;
     position: absolute;
-    width: 11rem;
-    right: 3rem;
-    bottom: 3rem;
-    background-color: white;
+    width: 30rem;
+    right: 2rem;
+    bottom: 2rem;
     padding: .5rem;
     border-radius: .3rem;
   }
-  .foto{
-    display: block;
+  .contFoto{
     width: 18rem;
     height: 18rem;
     border-radius: 9rem;
     border: 2px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .foto{
+    display: block;
+    width: 18rem;
   }
 
   /* Projects section */
